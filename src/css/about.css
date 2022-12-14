@@ -1,0 +1,33 @@
+.about{
+    background-color: rgb(18, 30, 39);
+    color:#fff;
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:10vw;
+}
+.about h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+    letter-spacing: 0.03rem;
+}
+.logo-continer{
+    width: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo {
+    color: rgb(255, 113, 91);
+    font-size: 2rem;
+}
+.logo:hover{
+    color: white;
+    transition: transform 0.40s ease;
+}
+.about p {
+    letter-spacing: 0.03rem;
+}
+.about div:last-child{
+    max-width: 32vw;
+}
