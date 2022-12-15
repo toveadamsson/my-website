@@ -1,0 +1,41 @@
+.main-componentet {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 10vw;
+}
+/* .title {
+  border: 1px solid red;
+} */
+
+ul {
+
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.display-skills{
+    padding-top: 6em;
+}
+.display-skills li {
+  width: -moz-fit-content;
+  /* width: 5rem; */
+  list-style: none;
+  background: rgb(18, 30, 39);
+  color: rgb(255, 255, 255);
+  padding: 0.2rem 0.7rem;
+  margin: 0px 0.25rem 1rem 0px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.each-height {
+  margin: 10px;
+}
+
+h2{padding-left: 2.5rem;}
+
+.about-me p{
+    padding-left: 2.5rem;
+}
