@@ -11,9 +11,11 @@ h1 {
   display: flex;
   font-size: 4rem;
   line-height: 1.1;
+  font-weight: 300;
   letter-spacing: 0.03rem;
 }
 .logo-continer {
+  margin-top: 10px;
   width: fit-content;
   display: flex;
   justify-content: space-evenly;
@@ -27,14 +29,18 @@ h1 {
 }
 .logo:hover {
   color: white;
-opacity: 1;
+  opacity: 1;
 }
 .about p {
-  letter-spacing: 0.03rem;
-  margin: 0;
+  color: rgb(199, 199, 199);
+  margin-top:10px;
+  font-weight: 300;
+  letter-spacing: 0.06rem;
+  font-size: 1.2rem;
+
 }
 .about div:last-child {
-  max-width: 32vw;
+  max-width: 42vw;
 }
 
 .underline--magical {
@@ -43,8 +49,19 @@ opacity: 1;
   background-size: 8.1em 0.2em;
   background-position: 0 88%;
   transition: background-size 0.25s ease-in;
-
 }
 .underline--magical:hover {
-    background-size: 8.1em 88%;
+  background-size: 8.1em 88%;
+}
+
+@media all and (max-width:992px){
+  h1{
+    font-size: 2em;
   }
+  .about p {
+    font-size: 1em;
+  }
+  .about div:last-child {
+    max-width: 70vw;
+  }
+}

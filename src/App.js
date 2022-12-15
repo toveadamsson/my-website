@@ -10,9 +10,9 @@ function App () {
     <div className='App'>
       <Header />
       <About />
-      <Skills />
+      {/* <Skills />
       <Projects />
-      <Contact />
+      <Contact /> */}
     </div>
   )
 }
