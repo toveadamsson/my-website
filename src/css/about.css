@@ -1,33 +1,50 @@
-.about{
-    background-color: rgb(18, 30, 39);
-    color:#fff;
-    height:90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left:10vw;
+.about {
+  background-color: rgb(18, 30, 39);
+  color: #fff;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10vw;
 }
-.about h1 {
-    font-size: 4rem;
-    line-height: 1.1;
-    letter-spacing: 0.03rem;
+h1 {
+  display: flex;
+  font-size: 4rem;
+  line-height: 1.1;
+  letter-spacing: 0.03rem;
 }
-.logo-continer{
-    width: 20vw;
-    display: flex;
-    justify-content: space-evenly;
+.logo-continer {
+  width: fit-content;
+  display: flex;
+  justify-content: space-evenly;
 }
 .logo {
-    color: rgb(255, 113, 91);
-    font-size: 2rem;
+  color: #ff715b;
+  font-size: 2rem;
+  padding-right: 1rem;
+  opacity: 1;
+  transition: 0.3s;
 }
-.logo:hover{
-    color: white;
-    transition: transform 0.40s ease;
+.logo:hover {
+  color: white;
+opacity: 1;
 }
 .about p {
-    letter-spacing: 0.03rem;
+  letter-spacing: 0.03rem;
+  margin: 0;
 }
-.about div:last-child{
-    max-width: 32vw;
+.about div:last-child {
+  max-width: 32vw;
 }
+
+.underline--magical {
+  background-image: linear-gradient(120deg, #ff715b 0%, #ff715b 100%);
+  background-repeat: no-repeat;
+  background-size: 8.1em 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+
+}
+.underline--magical:hover {
+    background-size: 8.1em 88%;
+  }

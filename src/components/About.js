@@ -2,14 +2,14 @@ import React from 'react'
 import '../css/about.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 export default function About () {
   return (
     <div className='about'>
-      <h1>
-        Hi, I'm Tove | Software <br /> Engineer
-      </h1>
+      <h1>Hi, I'm Tove | </h1>
+      <h1 className='underline--magical'>Software Engineer</h1>
+
       <div className='logo-continer'>
         <a href='https://www.linkedin.com/in/toveadamsson/'>
           <FontAwesomeIcon icon={faLinkedin} className='logo' />
@@ -30,3 +30,4 @@ export default function About () {
     </div>
   )
 }
+
