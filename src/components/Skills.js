@@ -1,11 +1,14 @@
 import React from 'react'
 import "../css/skills.css"
+import ProfilePhoto from "../assets/profilfoto.jpeg"
 export default function Skills () {
   return (
-    <div className='main-componentet'>
+    <div className='main-component'>
       <div className='title'>
-        <h1>My Skills</h1>
-        <img src='' alt='' />
+        {/* <h1>My Skills</h1> */}
+        <span>My</span>
+        <span className='underline--magical'>Skills</span>
+        <img src={ProfilePhoto} alt='tove adamsson' />
       </div>
       <div className='display-skills'>
         <div className='each-height'>
