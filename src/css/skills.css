@@ -51,6 +51,10 @@ ul {
   justify-content: center;
   align-items: center;
 }
+.display-skills li:hover{
+  background-color: #ff715b;
+  transition: 0.3s;
+}
 .each-height {
   margin: 10px;
 }

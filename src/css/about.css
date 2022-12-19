@@ -63,6 +63,6 @@ h1 {
     font-size: 1em;
   }
   .about div:last-child {
-    /* max-width: 70vw; */
+    max-width: 52vw;
   }
 }
