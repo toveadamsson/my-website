@@ -1,3 +1,22 @@
-.projects{
-    border:1px solid blue;
+.projects-container {
+display: flex;
+flex-direction: column;
+margin: 4vh 10vw;
+}
+.span h1 {
+  font-size: 3vw;
+  line-height: 1.1;
+  font-weight: 300;
+  letter-spacing: 0.03rem;
+  padding-right: 0.1em;
+}
+.underline--magical {
+  background-image: linear-gradient(120deg, #ff715b 0%, #ff715b 100%);
+  background-repeat: no-repeat;
+  background-size: 8.1em 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+.underline--magical:hover {
+  background-size: 8.1em 88%;
 }

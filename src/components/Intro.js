@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/about.css'
+import '../css/intro.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -23,7 +23,7 @@ export default function About () {
       </div>
       <div>
         <p>
-          I love exloring and creating &#127757; I'm curious by nature &#128300; and
+          I love exploring and creating &#127757; I'm curious by nature &#128300; and
           maybe my house is filled with my own ceramics &#128513;
         </p>
       </div>

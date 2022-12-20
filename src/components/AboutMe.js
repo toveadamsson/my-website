@@ -1,24 +1,12 @@
 import React from 'react'
-import '../css/skills.css'
+import '../css/aboutme.css'
 import ProfilePhoto from '../assets/profilfoto.jpeg'
 export default function Skills () {
-  // var letters = document.getElementsByTagName('li')
 
-  // for (var i = 0; i < letters.length; i++) {
-  //   var allWords = letters[i]
-  //   allWords.addEventListener('mouseover', func, false)
-  //   allWords.addEventListener('mouseout', func1, false)
-  // }
-  // function func () {
-  //   allWords.setAttribute('style', 'background-color: blue')
-  // }
-  // function func1 () {
-  //   allWords.setAttribute('style', 'background-color:green')
-  // }
 
   return (
-    <div className='main-component'>
-      <div className='resource'>
+    <div className='aboutme-container'>
+      <div className='title'>
         <div>
           <span>My</span>
           <span className='underline--magical'>Skills</span>
