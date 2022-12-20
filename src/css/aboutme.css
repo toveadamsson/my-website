@@ -33,9 +33,13 @@
 .display-skills {
   padding-top: 6em;
 }
-ul {
+.display-skills ul {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  /* display: flex;
+  width: 40vw;
+  flex-direction: row;
+  flex-wrap: wrap; */
 }
 .display-skills li {
   list-style: none;

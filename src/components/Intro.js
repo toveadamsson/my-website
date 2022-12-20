@@ -24,7 +24,7 @@ export default function About () {
       <div>
         <p>
           I love exploring and creating &#127757; I'm curious by nature &#128300; and
-          maybe my house is filled with my own ceramics &#128513;
+          maybe I've rewatched Friends and the Office more than what would be considered healthy &#128513;
         </p>
       </div>
     </div>

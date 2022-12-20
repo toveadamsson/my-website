@@ -1,10 +1,10 @@
 .projects-container {
-display: flex;
-flex-direction: column;
-margin: 4vh 10vw;
+  display: flex;
+  flex-direction: column;
+  margin: 10vh 10vw;
 }
-.span h1 {
-  font-size: 3vw;
+.title span {
+  font-size: 3.5vw;
   line-height: 1.1;
   font-weight: 300;
   letter-spacing: 0.03rem;
@@ -19,4 +19,71 @@ margin: 4vh 10vw;
 }
 .underline--magical:hover {
   background-size: 8.1em 88%;
+}
+/* ---------- */
+.individual-project {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 6em;
+}
+
+.project-stack h1 {
+  font-size: 4vw;
+  font-weight: 300;
+}
+.project-stack ul {
+  display: flex;
+  width: 24vw;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+.project-stack li {
+  list-style: none;
+  background: rgb(18, 30, 39);
+  color: rgb(255, 255, 255);
+  padding: 0.2rem 0.7rem;
+  margin: 0px 0.25rem 1rem 0px;
+  border-radius: 2px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-stack li:hover {
+  cursor: default;
+}
+.button {
+  border: none;
+  background-color: #ff715b;
+  color: rgb(255, 255, 255);
+  padding: 0.6rem 0.8rem;
+  margin: 1rem 0;
+  border-radius: 2px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-outline-danger {
+  border-color: #ff715b;
+  color: #ff715b;
+  margin: 1rem 0;
+}
+.btn-outline-danger:hover {
+  background-color: #ff715b;
+}
+.project-image {
+  justify-self: center;
+
+}
+.project-image img {
+  width: auto;
+  height: 35vh;
+  border-radius: 5px;
 }

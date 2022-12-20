@@ -2,8 +2,6 @@ import React from 'react'
 import '../css/aboutme.css'
 import ProfilePhoto from '../assets/profilfoto.jpeg'
 export default function Skills () {
-
-
   return (
     <div className='aboutme-container'>
       <div className='title'>
