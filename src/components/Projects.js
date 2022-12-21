@@ -1,8 +1,14 @@
 import React from 'react'
+// import { useNavigate } from 'react-router-dom'
 import Button from 'react-bootstrap/Button'
 import '../css/projects.css'
 import BeActiv from '../assets/beactiv.png'
 export default function Projects () {
+  // let navigate = useNavigate()
+  // const project1 = () => {
+  //   let path = `https://beactiv.surge.sh/`
+  //   navigate(path)
+  // }
   return (
     <div className='projects-container'>
       <div className='title'>
@@ -21,17 +27,22 @@ export default function Projects () {
               <li>Google Maps</li>
               <li>RESTful Api</li>
             </ul>
-            <Button variant='outline-danger'>View Project</Button>
+            <Button
+              href='https://beactiv.surge.sh/'
+              target='_blank'
+              variant='outline-danger'
+            >
+              View Project
+            </Button>
             <p className='project-description'>
+      
               Website for sport enthusiast, where to exercise for free in
-              Barcelona. I noticed that common platforms such as Google Maps
-              lack information about the free sport facilitiesin Barcelona. This
-              is the reason I chose to create my own platform where I could use
-              tools such as open source API from the Barcelona government and
-              combine it with manual added data. I collaborated with a UX/UI
-              designer student and the result became quite more than expected.
-              There's a lot of code in this project, I am working activaly to
-              apply clean code principles to this project
+              Barcelona. The creation of this project came when I noticed Google
+              Maps lack information about the free sport facilities in
+              Barcelona. I used open source API provided by the government but
+              also added manual data. I collaborated with a UX/UI designer
+              student and the result became quite more than expected. This code
+              is a work in progress towards cleaner code and better structure-
             </p>
           </div>
         </div>

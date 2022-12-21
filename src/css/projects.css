@@ -22,7 +22,7 @@
 }
 /* ---------- */
 .individual-project {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding-top: 6em;
@@ -86,4 +86,5 @@
   width: auto;
   height: 35vh;
   border-radius: 5px;
+  border:1px solid black;
 }
